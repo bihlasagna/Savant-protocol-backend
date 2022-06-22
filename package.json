@@ -1,20 +1,17 @@
 {
-  "name": "solidity-realestate-tokenization",
+  "name": "savant-protocol",
   "version": "1.0.0",
-  "description": "This boilerplate smart contract template introduces the core ideas and implementations for real estate tokenization",
-  "homepage": "https://github.com/Applicature/solidity-realestate-tokenization#readme",
+  "description": "This is a savant protocol",
   "license": "Apache-2.0",
   "keywords": [
+    "savant",
+    "dao",
     "solidity",
     "ethereum",
     "smart",
     "contracts"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Applicature/solidity-realestate-tokenization.git"
-  },
-  "author": "Andrew Zubko <andrew@applicature.com>",
+  "author": "Devmachine",
   "engines": {
     "node": ">=8.0.0"
   },
