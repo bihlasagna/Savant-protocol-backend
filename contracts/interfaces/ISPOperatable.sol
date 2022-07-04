@@ -3,6 +3,6 @@ pragma solidity 0.8.6;
 
 import './ISPOperatorStore.sol';
 
-interface IJBOperatable {
-  function operatorStore() external view returns (IJBOperatorStore);
+interface ISPOperatable {
+  function operatorStore() external view returns (ISPOperatorStore);
 }

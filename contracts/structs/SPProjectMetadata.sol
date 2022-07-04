@@ -5,8 +5,10 @@ pragma solidity 0.8.6;
   @member content The metadata content.
   @member domain The domain within which the metadata applies.
 */
-struct JBProjectMetadata {
+struct SPProjectMetadata {
   string coompanyName;
   string coompanyDescription;
   string companyLogoUrl;
+  string content;
+  uint256 domain;
 }
