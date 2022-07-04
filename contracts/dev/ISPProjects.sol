@@ -2,7 +2,7 @@
 pragma solidity 0.8.6;
 
 import '@openzeppelin/contracts/token/ERC721/IERC721.sol';
-import './../structs/SPProjectMetadata.sol';
+import './SPProjectMetadata.sol';
 import './ISPTokenUriResolver.sol';
 
 interface ISPProjects is IERC721 {
