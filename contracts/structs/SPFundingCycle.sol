@@ -22,6 +22,6 @@ struct SPFundingCycle {
   uint256 duration;
   uint256 weight;
   uint256 discountRate;
-  IJBFundingCycleBallot ballot;
+  ISPFundingCycleBallot ballot;
   uint256 metadata;
 }
