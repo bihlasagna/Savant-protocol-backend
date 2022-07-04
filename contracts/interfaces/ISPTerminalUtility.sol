@@ -3,6 +3,6 @@ pragma solidity 0.8.6;
 
 import './ISPDirectory.sol';
 
-interface ISPControllerUtility {
+interface ISPPaymentTerminalUtility {
   function directory() external view returns (ISPDirectory);
 }

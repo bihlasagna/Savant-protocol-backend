@@ -482,4 +482,3 @@ contract SPTokenStore is ISPTokenStore, SPControllerUtility, SPOperatable {
     emit ShouldRequireClaim(_projectId, _flag, msg.sender);
   }
 }
-

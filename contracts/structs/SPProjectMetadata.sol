@@ -6,9 +6,6 @@ pragma solidity 0.8.6;
   @member domain The domain within which the metadata applies.
 */
 struct SPProjectMetadata {
-  string coompanyName;
-  string coompanyDescription;
-  string companyLogoUrl;
   string content;
   uint256 domain;
 }

@@ -104,6 +104,8 @@ contract SPProjects is ISPProjects, SPOperatable, ERC721Votes, Ownable {
     @param _operatorStore A contract storing operator assignments.
   */
   constructor(ISPOperatorStore _operatorStore)
+    ERC721('Juicebox Projects', 'JUICEBOX')
+    EIP712('Juicebox Projects', '1')
     SPOperatable(_operatorStore)
   // solhint-disable-next-line no-empty-blocks
   {
@@ -133,6 +135,9 @@ contract SPProjects is ISPProjects, SPOperatable, ERC721Votes, Ownable {
   {
     // Increment the count, which will be used as the ID.
     projectId = ++count;
+
+    // Mint the project.
+    _safeMint(_owner, projectId);
 
     // Set the metadata if one was provided.
     if (bytes(_metadata.content).length > 0)

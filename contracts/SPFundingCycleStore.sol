@@ -180,7 +180,6 @@ contract SPFundingCycleStore is ISPFundingCycleStore, SPControllerUtility {
     return _mockFundingCycleBasedOn(fundingCycle, false);
   }
 
-
   /**
     @notice 
     The funding cycle that is currently active for the specified project.
@@ -652,7 +651,8 @@ contract SPFundingCycleStore is ISPFundingCycleStore, SPControllerUtility {
         _baseFundingCycle.metadata
       );
   }
-/** 
+
+  /** 
     @notice 
     The date that is the nearest multiple of the specified funding cycle's duration from its end.
 

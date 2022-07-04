@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.6;
 
-interface IJBToken {
+interface ISPToken {
   function decimals() external view returns (uint8);
 
   function totalSupply(uint256 _projectId) external view returns (uint256);
