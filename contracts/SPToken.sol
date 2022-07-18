@@ -5,23 +5,7 @@ import '@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol';
 import '@openzeppelin/contracts/access/Ownable.sol';
 import './interfaces/ISPToken.sol';
 
-/** 
-  @notice
-  An ERC-20 token that can be used by a project in the `SPTokenStore`.
-
-  @dev
-  Adheres to -
-  ISPToken: Allows this contract to be used by projects in the SPTokenStore.
-
-  @dev
-  Inherits from -
-  ERC20Permit: General token standard for fungible accounting. 
-  Ownable: Includes convenience functionality for checking a message sender's permissions before executing certain transactions.
-*/
 contract SPToken is ISPToken, ERC20Permit, Ownable {
-  //*********************************************************************//
-  // ------------------------- external views -------------------------- //
-  //*********************************************************************//
 
   /** 
     @notice
